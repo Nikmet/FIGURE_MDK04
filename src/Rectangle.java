@@ -1,17 +1,17 @@
+import javax.swing.*;
 import java.awt.*;
 
 public class Rectangle extends Shape{
 
-    private int x;
-    private int y;
-    public Rectangle(int x, int y, String color){
-        super(color);
-        this.x = x;
-        this.y = y;
+
+
+    public Rectangle(){
+
     }
+
     @Override
-    public void draw(Graphics g) {
-        g.setColor(Color.getColor(color));
-        g.drawRect(x,y,100,100);
+    public void draw() {
+        g.setColor(Color.BLACK);
+        g.drawRect(100, 100,100, 100);
     }
 }
