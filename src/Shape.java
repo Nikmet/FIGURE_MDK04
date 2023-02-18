@@ -1,24 +1,22 @@
-import javax.management.remote.JMXConnectorFactory;
-import javax.swing.*;
 import java.awt.*;
 
-public abstract class Shape extends JComponent{
+public abstract class Shape {
+    private Color color;
 
-    protected JFrame frame;
-    protected Graphics g;
-    public Shape(){
-        this.frame = new JFrame("Рисовалка");
-        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
-        frame.setSize(1000, 1000);
-        frame.setLocation(100, 100);
-        frame.getContentPane().add(new Shape(){
-            @Override
-            public void draw() {
-                System.out.println("Ready");
-            }
-        });
-        frame.setVisible(true);
-        this.g = frame.getGraphics();
+    public Shape() {
+        this(new Color(0,0,0));
+    }
+
+    public Shape(Color color) {
+        this.color = color;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
     }
 
     public abstract void draw();

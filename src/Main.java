@@ -1,9 +1,11 @@
-import javax.swing.*;
-import java.awt.*;
-
-public class Main extends JComponent {
+public class Main {
     public static void main(String[] args) {
-        Circle cr = new Circle();
-        cr.draw();
+        Shape[] shapes = new Shape[2];
+        shapes[0] = new Circle();
+        shapes[1] = new Rectangle();
+
+        for (Shape shape : shapes) {
+            shape.draw();
+        }
     }
 }
