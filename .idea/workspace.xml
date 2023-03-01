@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f62a77-95eb-4bc6-8bae-14f754d52048" name="Changes" comment="в" />
+    <list default="true" id="27f62a77-95eb-4bc6-8bae-14f754d52048" name="Changes" comment="sdasdasdash" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +29,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/metlo/Downloads/homeworks-master/homeworks-master/src/lesson16/task1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/metlo/Downloads/homeworks-master/homeworks-master/src/lesson16/task1&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="JComponent" />
@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676735688430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sdasdasdash">
+      <created>1677433521613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677433521613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +108,7 @@
     <MESSAGE value="bebe" />
     <MESSAGE value="pisdes" />
     <MESSAGE value="в" />
-    <option name="LAST_COMMIT_MESSAGE" value="в" />
+    <MESSAGE value="sdasdasdash" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdasdasdash" />
   </component>
 </project>
